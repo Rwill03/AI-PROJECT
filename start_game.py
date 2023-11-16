@@ -1,5 +1,5 @@
 import pygame
-
+import neat
 from pong import Game
 
 class PongGame:
@@ -10,7 +10,6 @@ class PongGame:
         self.ball = self.game.ball
     #def test_ai(self):
     
-        
 
 width, height = 700,500
 window = pygame.display.set_mode((width, height))
