@@ -29,7 +29,7 @@ The Sub-Goals for this project differ in alot of ways, here is a small list of p
 ## Problem statement
 
 #### 1. The main problem?
-The primary problem we aim to tackle is the creation of an artificial intelligence capable of playing Pong at an advanced level. This involves understanding the game's rules, making strategic decisions, and enhancing performance. Despite the seemingly simple nature of Pong, it poses a challenge for AI due to the need for rapid responses to changing conditions.
+The primary problem we aim to tackle is the creation of an artificial intelligence capable of playing Pong at an advanced level and how to integrate AI into a classic game like Pong without losing its essence. This involves understanding the game's rules, making strategic decisions, and enhancing performance. Despite the seemingly simple nature of Pong, it poses a challenge for AI due to the need for rapid responses to changing conditions.
 
 #### 2. Social context?
 In the societal context, the project contributes to the ongoing advancement of artificial intelligence. The ability to play Pong serves as a test case for the development of intelligent systems capable of handling more complex tasks, such as autonomous vehicles, medical diagnoses, or the analysis of large datasets.
@@ -43,12 +43,16 @@ The target audience for this project includes researchers and developers in the 
 
 In the vast landscape of AI applications in gaming, our project aligns with the challenge of programming AI for complex tasks. Major AAA titles like Call of Duty and Grand Theft Auto exemplify the utilization of advanced AI. These games aim to create opponents with human-like behavior, immersing players in a virtual world. The parallels highlight the significance of AI in enhancing gaming experiences.
 
+![gif1](gif1.gif)
+
 #### Dataset(s) or libraries?
 
 Despite its apparent simplicity, our Pong AI project strategically employs datasets and libraries. The core library, "Pygame," lays the foundation for the Pong environment, enabling the creation of a visually engaging and interactive setting. Additionally, "sklearn" facilitates AI calculations, while "Numpy" handles numerical operations. The balanced use of these tools showcases a meticulous approach tailored to the project's requirements.
 
 #### Algorithme?
 A standout feature of our project is the incorporation of a simple yet effective AI algorithm—linear regression. This intentional choice aligns with the project's objectives. Linear regression, valued for its simplicity and interpretability, fits scenarios where a linear relationship is assumed between input and output. In our context, it establishes a correlation between the ball's x-position and the CPU paddle's y-position.
+
+![algoritme](algo.png)
 
 Linear Regression Unveiled:
 Why Linear Regression? Its simplicity and interpretability make it suitable when anticipating a linear correlation.
@@ -60,11 +64,13 @@ This deliberate use of linear regression serves as an educational example, demon
 The project leverages widely adopted tools in the programming community:
 
 Python: A versatile and powerful language serving as the backbone for implementing game logic and AI.
+![python](python.png)
 Visual Studio Code: A popular code editor chosen for its user-friendly interface and robust features, providing an efficient environment for development and debugging.
+![vscode](vs.png)
 
-#### Target?
+#### Target/inference?
 
-The primary inference goal revolves around predicting CPU paddle movement based on the ball's current position. The linear regression model, meticulously trained with historical ball and CPU paddle data, dynamically adjusts the CPU paddle's behavior, adding responsiveness and challenge to the game.
+The primary inference goal revolves around predicting CPU paddle movement based on the ball's current position. The linear regression model, meticulouslydynamically adjusts the CPU paddle's behavior, adding responsiveness and challenge to the game.
 
 
 
@@ -104,7 +110,9 @@ The left paddle is controlled by the PC/CPU.
 
 ### The control display
 
-The control display acts as the informational hub of the game, offering insights into crucial aspects of gameplay. The display includes the player's score, providing immediate feedback on their performance. The central feature, indicating the ball's speed, introduces an intriguing dynamic to the game.
+![controldisplay](control.png)
+
+The control display acts as the informational hub of the game, offering insights into crucial aspects of gameplay. The display includes the player's score, providing immediate feedback on their performance. The current ball speed, which indicating the ball's speed, introduces an intriguing dynamic to the game and score Tracking. We will discuss these features in depth.
 
 Score Tracking
 
@@ -151,8 +159,13 @@ In conclusion, the Pong AI project not only meets its set objectives but also pr
 1. Chat-GPT
 2. Bard
 3. https://www.ibm.com/topics/linear-regression#:~:text=Resources-,What%20is%20linear%20regression%3F,is%20called%20the%20independent%20variable.
+4. https://realpython.com/linear-regression-in-python/
 
+5. https://www.vg247.com/you-know-you-want-to-play-massively-multiplayer-pong
 
+6. https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fpong-game-retro-gif-12729647&psig=AOvVaw0x53QMdY4hA_pJmDOiNJ28&ust=1701386003886000&source=images&cd=vfe&opi=89978449&ved=0CBMQ3YkBahcKEwi45fj0quqCAxUAAAAAHQAAAAAQCQ
+
+7. https://www.wired.com/2015/01/ralph-baer-al-alcorn-pioneer-award-dice/
 
 
 
