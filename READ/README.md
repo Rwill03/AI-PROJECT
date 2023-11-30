@@ -12,11 +12,11 @@
 
 ## Introduction
 
-This project is a thesis for the module AI-Programming by William Rogov. For this thesis I have chosen to make and integrate an AI to the populair and timeless game "Pong".
+This project is a thesis for the module AI-Programming by William Rogov. For this thesis I have chosen to make and integrate an AI to the populair and timeless game "Pong".This README.MD file will contain explaination about the project. 
 
 ## Goals
 #### Main-Goal
-The main goal of this project, is to create a Pong A.I that moves the paddle accordingly to defeat the player (you).
+The main goal of this project, is to create a Pong A.I that moves the paddle accordingly to defeat the player (you). This AI should be able to play in a way that is realistic and fair so that the user (player) wouldn't "feel" the difference between the AI and human opponent
 #### Sub-Goals
 The Sub-Goals for this project differ in alot of ways, here is a small list of potential Sub-Goals:
 
@@ -45,27 +45,31 @@ In the vast landscape of AI applications in gaming, our project aligns with the 
 
 ![gif1](gif1.gif)
 
+In this GIF, we witness how an AI is learning to play a basketball game.
+
 #### Dataset(s) or libraries?
 
 Despite its apparent simplicity, our Pong AI project strategically employs datasets and libraries. The core library, "Pygame," lays the foundation for the Pong environment, enabling the creation of a visually engaging and interactive setting. Additionally, "sklearn" facilitates AI calculations, while "Numpy" handles numerical operations. The balanced use of these tools showcases a meticulous approach tailored to the project's requirements.
 
 #### Algorithme?
-A standout feature of our project is the incorporation of a simple yet effective AI algorithm—linear regression. This intentional choice aligns with the project's objectives. Linear regression, valued for its simplicity and interpretability, fits scenarios where a linear relationship is assumed between input and output. In our context, it establishes a correlation between the ball's x-position and the CPU paddle's y-position.
+A standout feature of my project is the incorporation of a simple yet effective AI algorithm—linear regression. This intentional choice aligns with the project's objectives. Linear regression, valued for its simplicity and interpretability, fits scenarios where a linear relationship is assumed between input(the current location of the ball) and output(the location that the ball is heading to, influenced by the speed). In our context, it establishes a correlation between the ball's x-position and the CPU paddle's y-position.
 
 ![algoritme](algo.png)
 
-Linear Regression Unveiled:
-Why Linear Regression? Its simplicity and interpretability make it suitable when anticipating a linear correlation.
-Application in Pong: The linear regression model predicts CPU paddle movement based on the ball's current position. Training with historical data empowers the model to make informed predictions, injecting dynamism into the CPU paddle's response.
+### Linear Regression Unveiled:
+Why Linear Regression? 
+
+Its simplicity and interpretability make it suitable when anticipating a linear correlation.
+Application in Pong: The linear regression model predicts CPU paddle movement based on the ball's current position. It empowers the model to make informed predictions, injecting dynamism into the CPU paddle's response.
 This deliberate use of linear regression serves as an educational example, demonstrating the application of machine learning principles in basic gaming environments. While the project introduces linear regression, real-world applications may demand more complex algorithms based on problem intricacies.
 
 #### Relevant tools?
 
 The project leverages widely adopted tools in the programming community:
 
-Python: A versatile and powerful language serving as the backbone for implementing game logic and AI.
+Python: A versatile and powerful language serving as the backbone for implementing game logic, algorithme and AI.
 ![python](python.png)
-Visual Studio Code: A popular code editor chosen for its user-friendly interface and robust features, providing an efficient environment for development and debugging.
+Visual Studio Code: A popular code editor chosen for its user-friendly interface and robust features, providing an efficient environment for development and debugging.It is also available on (almost) every OS, which makes it very accesible for every curious user.
 ![vscode](vs.png)
 
 #### Target/inference?
@@ -87,6 +91,8 @@ The project's software ecosystem centers around Visual Studio Code, a widely emb
 
 Given the project's simplicity, deploying it as an .exe file emerges as an optimal solution. This streamlined approach ensures straightforward execution on various platforms, reflecting a commitment to user-friendly deployment.
 
+(NOTE: An attempt of implementing the project in to an .exe file can be find in this reposetory, but it isn't functional.)
+
 ## Results
 
 After the meticulous process of creating the Pong AI, let's delve into a comprehensive reflection on the results and the key components that shape the game.
@@ -104,9 +110,7 @@ By using Pygame, I could create the iconic look of the Pong game.
 ### The paddle
 The paddle of the player can be moved using the up- &#8595; or down- &#8593;
 keys on your keyboard. The ball will bounce off any side of the screen if it hits a wall. If you score a point by hitting the wall.
-It is not possible to move the ball with the mouse. This means that the only way to control the direction of the ball is the keyboard.
-
-The left paddle is controlled by the PC/CPU.
+It is not possible to move the ball with the mouse. This means that the only way to control the direction of the ball is the keyboard. The left paddle is controlled by the PC/CPU.
 
 ### The control display
 
@@ -166,6 +170,8 @@ In conclusion, the Pong AI project not only meets its set objectives but also pr
 6. https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fpong-game-retro-gif-12729647&psig=AOvVaw0x53QMdY4hA_pJmDOiNJ28&ust=1701386003886000&source=images&cd=vfe&opi=89978449&ved=0CBMQ3YkBahcKEwi45fj0quqCAxUAAAAAHQAAAAAQCQ
 
 7. https://www.wired.com/2015/01/ralph-baer-al-alcorn-pioneer-award-dice/
+
+8. https://scikit-learn.org/stable/getting_started.html
 
 
 
